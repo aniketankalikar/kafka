@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-realwold-project</name>
 	<description>spring boot kafka real world scenario</description>
+	<packaging>pom</packaging>
 	<url/>
 	<licenses>
 		<license/>
@@ -52,6 +53,11 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<modules>
+		<module>kafka-producer-wikimedia</module>
+		<module>kafka-consumer-wikimedia</module>
+	</modules>
 
 	<build>
 		<plugins>
